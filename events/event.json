@@ -1,0 +1,59 @@
+{
+  "resource": "/{proxy+}",
+  "path": "/path/to/resource",
+  "httpMethod": "POST",
+  "isBase64Encoded": true,
+  "pathParameters": {
+    "proxy": "/path/to/resource"
+  },
+  "stageVariables": {
+    "baz": "qux"
+  },
+  "headers": {
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+    "Accept-Encoding": "gzip, deflate, sdch",
+    "Accept-Language": "en-US,en;q=0.8",
+    "Cache-Control": "max-age=0",
+    "CloudFront-Forwarded-Proto": "https",
+    "CloudFront-Is-Desktop-Viewer": "true",
+    "CloudFront-Is-Mobile-Viewer": "false",
+    "CloudFront-Is-SmartTV-Viewer": "false",
+    "CloudFront-Is-Tablet-Viewer": "false",
+    "CloudFront-Viewer-Country": "US",
+    "Host": "1234567890.execute-api.us-east-1.amazonaws.com",
+    "Upgrade-Insecure-Requests": "1",
+    "User-Agent": "Custom User Agent String",
+    "Via": "1.1 08f323deadbeefa7af34d5feb414ce27.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Id": "cDehVQoZnx43VYQb9j2-nvCh-9z396Uhbp027Y2JvkCPNLmGJHqlaA==",
+    "X-Forwarded-For": "127.0.0.1, 127.0.0.2",
+    "X-Forwarded-Port": "443",
+    "X-Forwarded-Proto": "https"
+  },
+  "requestContext": {
+    "accountId": "123456789012",
+    "resourceId": "123456",
+    "stage": "prod",
+    "requestId": "c6af9ac6-7b61-11e6-9a41-93e8deadbeef",
+    "requestTime": "09/Apr/2015:12:34:56 +0000",
+    "requestTimeEpoch": 1428582896000,
+    "identity": {
+      "cognitoIdentityPoolId": null,
+      "accountId": null,
+      "cognitoIdentityId": null,
+      "caller": null,
+      "accessKey": null,
+      "sourceIp": "127.0.0.1",
+      "cognitoAuthenticationType": null,
+      "cognitoAuthenticationProvider": null,
+      "userArn": null,
+      "userAgent": "Custom User Agent String",
+      "user": null
+    },
+    "path": "/prod/path/to/resource",
+    "resourcePath": "/{proxy+}",
+    "httpMethod": "POST",
+    "apiId": "1234567890",
+    "protocol": "HTTP/1.1"
+  },
+  "body": "{\"age\":{\"0\":31,\"1\":17,\"2\":47,\"3\":21,\"4\":17},\"workclass\":{\"0\":\" Private\",\"1\":\" Self-emp-not-inc\",\"2\":\" Private\",\"3\":\" Private\",\"4\":\" Private\"},\"fnlwgt\":{\"0\":169085,\"1\":226203,\"2\":54260,\"3\":176262,\"4\":241185},\"education\":{\"0\":\" 11th\",\"1\":\" 12th\",\"2\":\" Assoc-voc\",\"3\":\" Some-college\",\"4\":\" 12th\"},\"education-num\":{\"0\":7,\"1\":8,\"2\":11,\"3\":10,\"4\":8},\"marital-status\":{\"0\":\" Married-civ-spouse\",\"1\":\" Never-married\",\"2\":\" Married-civ-spouse\",\"3\":\" Never-married\",\"4\":\" Never-married\"},\"occupation\":{\"0\":\" Sales\",\"1\":\" Sales\",\"2\":\" Exec-managerial\",\"3\":\" Exec-managerial\",\"4\":\" Prof-specialty\"},\"relationship\":{\"0\":\" Wife\",\"1\":\" Own-child\",\"2\":\" Husband\",\"3\":\" Own-child\",\"4\":\" Own-child\"},\"race\":{\"0\":\" White\",\"1\":\" White\",\"2\":\" White\",\"3\":\" White\",\"4\":\" White\"},\"sex\":{\"0\":\" Female\",\"1\":\" Male\",\"2\":\" Male\",\"3\":\" Female\",\"4\":\" Male\"},\"capital-gain\":{\"0\":0,\"1\":0,\"2\":0,\"3\":0,\"4\":0},\"capital-loss\":{\"0\":0,\"1\":0,\"2\":1887,\"3\":0,\"4\":0},\"hours-per-week\":{\"0\":20,\"1\":45,\"2\":60,\"3\":30,\"4\":20},\"native-country\":{\"0\":\" United-States\",\"1\":\" United-States\",\"2\":\" United-States\",\"3\":\" United-States\",\"4\":\" United-States\"}}"
+}
